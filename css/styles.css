@@ -67,37 +67,6 @@ h2 {
   font-size: 30px;
 }
 
-.about-us {
-  border-top: 2px solid grey;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  width: auto;
-  height: auto;
-  text-align: left;
-  margin: 20px;
-  margin-top: 10px;
-}
-
-.about-us-det-container {
-  display: inherit;
-  flex-direction: column;
-  padding: 20px 10px;
-}
-
-.about-us-title{
-  padding-left: 20px;
-}
-
-.about-us-list {
-  padding-left: 50px;
-}
-
-.about-us-details{
-  margin: 10px;
-  text-align: justify;
-}
-
 .container{
     
     display: flex;
@@ -204,6 +173,7 @@ h2 {
   width: auto;
   height: auto;
   padding-right: 15px;
+  display: flex;
 }
 
 .products{
@@ -230,7 +200,90 @@ h2 {
 }
 
 .product-details {
-  padding-top: 20px;
+  padding: 20px 10px;
+  text-align: justify;
+}
+
+.service-container {
+  border-top: 2px solid grey;
+  margin: 20px;
+  margin-top: 10px;
+  padding-bottom: 20px;
+  width: auto;
+  height: auto;
+  padding-right: 15px;
+  display: flex;
+}
+
+.services{
+  margin-left: 40px;
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+}
+
+.services-subtitle {
+  padding-top: 10px;
+}
+
+.services-head{
+  display: inherit;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  margin: 20px;
+}
+
+.service {
+  text-align: center;
+}
+
+.service-details {
+  padding: 20px 10px 0;
+  margin-bottom: 0;
+  text-align: justify;
+}
+
+
+.about-us {
+  border-top: 2px solid grey;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: auto;
+  height: auto;
+  text-align: left;
+  margin: 20px;
+  margin-top: 10px;
+}
+
+.about-us-det-container {
+  display: inherit;
+  flex-direction: column;
+  padding: 20px 10px;
+}
+
+.about-us-title{
+  padding-left: 20px;
+}
+
+.about-us-list-box {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  margin-left: 70px;
+}
+
+.about-us-list {
+  margin-left: 15px;
+  list-style: none;
+  padding: 2px 0;
+}
+
+.about-us-details{
+  margin: 10px;
+  text-align: justify;
+  margin-left: 80px;
 }
 
 .technology{
@@ -302,6 +355,12 @@ h2 {
   font-size: 20px;
 }
 
+.social {
+  width: 80%;
+  display: flex;
+  justify-content: flex-end;
+}
+
 .social-link{
   display: inline-block;
   width: 50px;
@@ -315,7 +374,7 @@ h2 {
 }
 
 .social-link.facebook{
-  background-image: url("../images/facebook.svg");
+  background-image: url("../images/facebook.png");
 }
 
 .footer {
