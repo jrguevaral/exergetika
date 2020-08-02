@@ -1,29 +1,30 @@
 <!DOCTYPE html>
-<html lang="es" dir="ltr">
+<html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Javier Guevara</title>
-    <link rel="icon" type="image/png" href="./images/large.png"/>
-    <link rel="stylesheet" href="./css/styles2.css">
-    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Source+Sans+Pro" rel="stylesheet">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">    
+    <link rel="icon" type="image/png" href="./images/favicon.png"/>
+    <title>Inicio - Exergétika</title>
   </head>
   <body>
     <header class="header">
       <div class="wrapper">
         <figure class="logo">
-          <img src="./images/logo_exergetika.png" height= 50px; alt="Logo" />
+          <img href="inicio.html" src="./images/logo_exergetika.png" alt="Logo" />
         </figure>
         <nav class="menu">
           <ul>
             <li>
-              <a class="link" href="#portfolio">Quienes Somos</a>
+              <a class="link" href="#about-us">Quienes Somos</a>
             </li>
             <li>
-              <a class="link" href="#eventos">Servicios</a>
+              <a class="link" href="#services">Servicios</a>
             </li>
             <li>
-              <a  class="link" href="#contact">Blog</a>
+              <a  class="link" href="blog.html">Blog</a>
             </li>
             <li>
               <a  class="link" href="#contact">Contacto</a>
@@ -32,95 +33,195 @@
         </nav>
       </div>
     </header>
-    <!-- <section class="hero">
-      <div class="wrapper">
-        <h1>
-          Hola! Soy <strong>Javier Guevara</strong> <br> Ingeniero 
-          químico con <br> pasión por la <strong>enseñanza</strong>.
-        </h1>
-        <img src="./images/foto.jpg" class="hero-image" width="500px" alt="Imagen principal">
-      </div>
-    </section> -->
-    <section class="portfolio" id="portfolio">
-      <div class="wrapper">
-        <h2 class="portfolio-title">Portafolio (Proyectos destacados)</h2>
-        <article class="project">
-          <div class="project-details">
-            <h3 class="project-title">Implementación Blog</h3>
-            <h6 class="project-course">Exergétika</h6>
-            <p class="project-date"><small><strong>Fecha:</strong> 01/07/2018</small></p>
-            <p class="project-url"><small><strong>Puedes verlo en:</strong> www.platzi.com/native</small></p>
-            <p class="project-description">Platzi Video fue el resultado de 3 meses de trabajo
-              para crear la mejor app para enseñar el funcionamiento
-            de React y React Native. Desde crear un vista-detalle, hasta patrones. </p>
-           </div> 
-          <figure class="project-imageContainer">
-            <img class="project-image" src="./images/platzi-video-react-native.png" width="500px" alt="platzi video">
-          </figure>
+      <section class="container">
+        <div class="wrapper">
+          <h2>Industrias</h2>
+          <article class="container_industria">
+            <img class="container--img" src="http://www.exergetika.com/wp-content/uploads/2018/08/logo-quimica.png" alt="industria quimica">
+            <p>Industria química </p>
+          </article>
+          <article class="container_industria">
+            <img class="container--img" src="http://www.exergetika.com/wp-content/uploads/2018/08/logo-pyg.png" alt="petroleo y gas">
+            <p>Petróleo y gas </p>
         </article>
-        <article class="project">
-          <div class="project-details">
-            <h3 class="project-title">Simulador en tiempo real</h3>
-            <h6 class="project-course">Cálidda - Perú</h6>
-            <p class="project-date"><small><strong>Fecha:</strong> 01/07/2018</small></p>
-            <p class="project-url"><small><strong>Puedes verlo en:</strong> www.platzi.com/native</small></p>
-            <p class="project-description">Platzi Video fue el resultado de 3 meses de trabajo
-              para crear la mejor app para enseñar el funcionamiento
-            de React y React Native. Desde crear un vista-detalle, hasta patrones. </p>
-           </div> 
-          <figure class="project-imageContainer">
-            <img class="project-image" src="./images/platzi-video-react-native.png" width="500px" alt="platzi video">
-          </figure>
+        <article class="container_industria">
+          <img class="container--img" src="http://www.exergetika.com/wp-content/uploads/2018/08/logo-energia.png" alt="energia">
+          <p>Energía </p>
+        </article>
+        <article class="container_industria">
+          <img class="container--img" src="http://www.exergetika.com/wp-content/uploads/2018/08/logo-ambiental.png" alt="ambiental">
+          <p>Ambiental </p>
+        </article>
+        <article class="container_industria">
+          <img class="container--img" src="http://www.exergetika.com/wp-content/uploads/2018/08/logo-alimentos.png" alt="alimentos">
+          <p>Alimentos</p>
+        </article>
+        <article class="container_industria">
+          <img class="container--img" src="http://www.exergetika.com/wp-content/uploads/2018/08/logo-construccion.png" alt="construccion">
+          <p>Construcción </p>
         </article>
       </div>
     </section>
-  <div class="wrapper">
-      <h2 class="eventlist-title">Más sobre mi experiencia</h2>
-  </div>
-   <section id="eventos" class="eventlist">
+    
+    <section id="business" class="businesslist">
       <div class="wrapper">
-        <article class="event">
-            <figure class="event-imageContainer">
-              <img class="event-image" src="./images/platzi-conf.jpg" width="500px" alt="platzi conf"/>
-            </figure>
-            <div class="event-detail">
-            <h3 class="event-title">Internation Software Summit 2019</h3>
-            <p class="event-description">El evento más grande sobre gente que quiere aprender más de internet. En este evento te comparto cómo tener una vida de constante aprendizaje.</p>
-            <a class="event-url"> ver Plática</a>
+        <h2 class="businesslist-title">Líneas de Negocio</h2>
+        <article class="business">
+          <div class="business-detail">
+            <h3 class="business-title">Modelamiento de procesos</h3>
+            <p class="business-description">Nos especializamos en el modelamiento de equipos y el análisis dinámico de sistemas, lo que le permite
+              abordar la solución de diversos problemas de ingeniería.</p>
+            </div>
+          </article>
+          <article class="business">
+            <div class="business-detail">
+              <h3 class="business-title">Herramientas de cálculo</h3>
+              <p class="business-description"><br>Desarrollamos herramientas de cálculo para mejorar la productividad y
+              competitividad del trabajo de ingeniería automatizando tareas de cálculo.</p>
           </div>
         </article>
-        <article class="event">
-          <figure class="event-imageContainer">
-            <img class="event-image" src="./images/platzi-conf.jpg" width="500px" alt="platzi conf"/>
+        <article class="business">
+          <div class="business-detail">
+            <h3 class="business-title">Servicios de ingeniería</h3>
+            <p class="business-description"><br>Ofrecemos servicios de ingeniería especializada en simulación de procesos, modelamiento de equipos,
+              análisis de sistemas, automatización de procesos y eficiencia energética.</p>
+            </div>
+          </article>
+          <article class="business">
+            <div class="business-detail">
+              <h3 class="business-title">Análisis de datos</h3>
+              <p class="business-description"><br>Servicios de análisis y visualización de datos para 
+                organizaciones y procesos industriales. Con el fin de mejorar procesos de métrica e indicadores.</p>
+              </div>
+            </article>
+      </div>
+        </section>
+
+    <section class="product-container">
+        <div class="wrapper">
+          <div class="products-head">
+            <h2 class="products-title">Características</h2>
+            <p class="products-subtitle">Todas nuestras soluciones son flexibles y amigables para tus necesidades de diseño y análisis de procesos</p>
+          </div>
+          <section class="products">
+            <article class="product">
+              <figure class="product-imageContainer">
+                <img src="http://www.exergetika.com/wp-content/uploads/2019/09/pen_comp.png" width=200px alt="pensamiento">
+              </figure>
+              <div>
+                <h3 class="product-title">Pensamiento Computacional</h3>
+                <p class="product-details">El pensamiento computacional es la base para modelar eficientemente procesos y sistemas. Cada nueva 
+                  area se enfrenta aplicando sistemáticamente nuestro conocimiento y experiencia.</p>
+          </div>
+        </article>
+        <article class="product">
+          <figure class="product-imageContainer">
+            <img src="http://www.exergetika.com/wp-content/uploads/2019/09/rig-pres.png" width=200px alt="riguroso">
           </figure>
-          <div class="event-detail">
-          <h3 class="event-title">Internation Software Summit 2018</h3>
-          <p class="event-description">El evento más grande sobre gente que quiere aprender más de internet. En este evento te comparto cómo tener una vida de constante aprendizaje.</p>
-          <a class="event-url"> ver Plática</a>
+          <h3 class="product-title">Riguroso, preciso y confiable</h3>
+          <p class="product-details">La rigurosidad que caracteriza nuestro trabajo nos permite ofrecer herramientas de cálculo y servicios 
+            basados en resultados precisos y confiables. Nuestros desarrollos son calibrados y validados.</p>
+          </article>
+          <article class="product">
+            <figure class="product-imageContainer">
+              <img src="http://www.exergetika.com/wp-content/uploads/2019/09/flex-int.png" width=200px alt="interactivo">
+          </figure>
+          <h3 class="product-title">Flexible e interactivo</h3>
+          <p class="product-details">Nuestro trabajo está respaldado por la tecnología computacional de Wolfram Research con la cual podemos 
+            solucionar problemas complejos por medio de programas simples, flexibles e interactivos.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="service-container" id="services">
+      <div class="wrapper">
+        <div class="services-head">
+          <h2 class="services-title">Nuestros Servicios</h2>
+          <p class="services-subtitle"> Brindamos soluciones personalizadas para la necesidad de tu organización.</p>
         </div>
-        </article>
-        <article class="event">
-          <figure class="event-imageContainer">
-            <img class="event-image" src="./images/platzi-conf.jpg" width="500px" alt="platzi conf"/>
-          </figure>
-          <div class="event-detail">
-          <h3 class="event-title">Internation Software Summit 2019</h3>
-          <p class="event-description">El evento más grande sobre gente que quiere aprender más de internet. En este evento te comparto cómo tener una vida de constante aprendizaje.</p>
-          <a class="event-url"> ver Plática</a>
-          </div>
-        </article>
-        <article class="event">
-          <figure class="event-imageContainer">
-            <img class="event-image" src="./images/platzi-conf.jpg" width="500px" alt="platzi conf"/>
-          </figure>
-          <div class="event-detail">
-          <h3 class="event-title">Platzi Conf México 2018</h3>
-          <p class="event-description">El evento más grande sobre gente que quiere aprender más de internet. En este evento te comparto cómo tener una vida de constante aprendizaje.</p>
-          <a class="event-url"> ver Plática</a>
-          </div>
-        </article>
+        <div class="services">
+          <article class="service">
+            <figure class="service-imageContainer">
+              <img src="https://www.exergetika.com/wp-content/uploads/2018/02/modelamiento.png" height=200px alt="pensamiento">
+            </figure>
+            <div>
+              <h3 class="service-title">Modelamiento y simulación de equipos y procesos</h3>
+              <p class="service-details">Desarrollo de modelos matemáticos a la medida de sus necesidades para el
+                diseño, análisis y simulación de equipos y procesos</p>
+          </article>
+          <article class="service">
+            <figure class="service-imageContainer">
+              <img src="https://www.exergetika.com/wp-content/uploads/2018/02/documentos.png" height=200px alt="riguroso">
+            </figure>
+            <h3 class="service-title">Memorias de cálculo interactivas para cualquier aplicación</h3>
+            <p class="service-details">Aprovechando la funcionalidad de Wolfram Mathematica. elabore sus cálculos y
+               documentos de ingeniería en un solo entorno interactivo y flexible que permite reducir tiempos de 
+               ejecución y actualizar cálculos rápidamente. </p>
+          </article>
+          <article class="service">
+            <figure class="service-imageContainer">
+              <img src="https://www.exergetika.com/wp-content/uploads/2018/02/aplicaciones.png" height=200px alt="interactivo">
+            </figure>
+            <h3 class="service-title">Aplicaciones para diseño de equipos</h3>
+            <p class="service-details"><br>Herramientas de cálculo para el diseño y evaluación de equipos de
+              proceso y sistemas hidráulicos</p>
+          </article>
+        </div>
       </div>
     </section>
+
+    <section class="about-us" id="about-us">
+      <div class="wrapper">
+        <div class="about-us-container">
+          <h2 class="about-us-title">Quienes somos</h2>
+        </div>
+        <div class="about-us-det-container">
+          <p class="about-us-details">Exergétika es una empresa creada en 2016 con el propósito de
+             crear soluciones de ingeniería basadas en la aplicación del pensamiento computacional. 
+             Somos expertos en simulación y modelamiento de procesos y sistemas dinámicos en los sectores:</p>
+             <ul class="about-us-list">
+               <div class="about-us-list-box"> 
+                <img src="https://www.exergetika.com/wp-content/uploads/2020/07/favicon.png"" alt="" width="20px">
+                <li class="about-us-list">Energía</li>
+               </div>     
+               <div class="about-us-list-box"> 
+                <img src="https://www.exergetika.com/wp-content/uploads/2020/07/favicon.png"" alt="" width="20px">        
+                <li class="about-us-list">Industria química</li>
+              </div> 
+                <div class="about-us-list-box"> 
+                  <img src="https://www.exergetika.com/wp-content/uploads/2020/07/favicon.png"" alt="" width="20px">
+                  <li class="about-us-list">Alimentos</li>
+              </div> 
+              <div class="about-us-list-box"> 
+                <img src="https://www.exergetika.com/wp-content/uploads/2020/07/favicon.png"" alt="" width="20px">
+                  <li class="about-us-list">Ambiente</li>
+              </div> 
+              <div class="about-us-list-box"> 
+                <img src="https://www.exergetika.com/wp-content/uploads/2020/07/favicon.png"" alt="" width="20px">
+                <li class="about-us-list">Construcción</li>
+              </div> 
+             </ul>
+            <p class="about-us-details">Nuestros productos y servicios están orientados a la automatización de cálculos de ingeniería, 
+              ofreciendo a nuestros clientes soluciones que permiten reducir los tiempos de diseño, 
+              mejorando su productividad y competitividad.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="technology">
+      <div class="wrapper">
+        <div class="technology-titlecontainer">
+          <h2 class="technology-title">Tecnología</h2>
+        </div>
+        <div class="technology-container">
+          <p
+          class="technology-detail">El uso de la tecnología de programación de <strong>Wolfram Research</strong>
+        ofrece flexibilidad, respaldo y posibilidades ilimitadas a nuestas soluciones de ingeniería.</p>
+        <img class="technology--img" src="./images/wolfram.png" alt="wolfram">
+        </div>
+      </div>
+    </section>
+
     <section class="contact" id="contact">
       <div class="wrapper">
         <form class="form-email" action="/suscripcion/">
@@ -129,20 +230,20 @@
           <button>Enviar</button>
         </form>
         <div class="social">
-          <a class="social-link twitter" href="https://www.twitter.com/jrguevaral"></a>
-          <a class="social-link facebook" href="https://www.facebook.com/jrguevaral"></a>
-          <a class="social-link github" href="hhtps://www.github.com/"></a>
-          <a class="social-link instagram" href="https://www.instragram.com/jrguevaral"></a>
+          <a class="social-link facebook" href="https://www.facebook.com/exergetika"></a>
+          <a class="social-link linkedin" href="https://www.linkedin.com/company/exergetika/"></a>
         </div>
       </div>
     </section>
     <footer class="footer">
       <div class="wrapper">
-        <div>
-          <p>Curso de Desarrollo web Online 2020 <img src="./images/platzi.png" width=80px; alt="platzi"></p>
-        </div>
-        <div>
-          <p>Diseñado por Javier Guevara</p>
+        <div class="footer-style">
+          <div class="footer-detail">
+            <p>Curso de Desarrollo web Online 2020</p>
+          </div>
+          <div>
+            <p class="footer-design">Diseñado por Javier Guevara</p>
+          </div>
         </div>
       </div>
     </footer>
